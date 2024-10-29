@@ -22,9 +22,7 @@ cd vscode-ruby-profile
 chmod +x setup.sh
 
 # For zsh users
-zsh setup.sh install
-# OR for bash users
-./setup.sh install
+zsh setup.sh install # OR ./setup.sh install for bash users
 ```
 
 ## Manual Setup
@@ -74,10 +72,6 @@ cd ~/.vscode/profiles/RubyProfile
 bundle install
 ```
 
-# Setting up a Ruby Development Environment with VSCode
-
-[Previous content remains the same until the VSCode Settings section]
-
 ### 4. Configure VSCode Settings
 
 Create a `settings.json` file in your profile directory with the following content:
@@ -98,15 +92,15 @@ Create a `settings.json` file in your profile directory with the following conte
 ```
 
 **Important Note About Theme**: 
-While the settings specify "Spinel" as the default theme, you'll need to manually install and apply it. We strongly recommend using either:
+While the settings specify "Spinel" as the default theme, you'll need to apply it. We strongly recommend using either:
 - Spinel (Dark theme)
 - Spinel Light (Light theme)
 
-These themes are specifically optimized for Ruby syntax highlighting and provide better visual distinction for Ruby code elements. To install the theme:
+These themes are specifically optimized for Ruby syntax highlighting and provide better visual distinction for Ruby code elements. To apply the theme:
 1. Open VSCode Command Palette (Cmd/Ctrl + Shift + P)
-2. Type "Install Extensions"
-3. Search for "Spinel Theme"
-4. Install and apply the theme variant of your choice
+2. Type "Preferences: Color Theme"
+3. Search for "Spinel"
+4. Select and apply the theme variant of your choice
 
 ### 5. Create Shell Function
 
