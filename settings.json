@@ -1,0 +1,12 @@
+{
+  "rubyLsp.bundleGemfile": "${userHome}/.vscode/profiles/RubyProfile/Gemfile",
+  "workbench.colorTheme": "Spinel",
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnType": false
+  }
+}
